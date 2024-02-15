@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div>
       landing (unprotected)
-      <div>
+      <div className=" h-full py-10 flex justify-center items-center">
         <Link href="/sign-in">
           <Button>
             login
